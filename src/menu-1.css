@@ -1,0 +1,136 @@
+body {
+  width: 60vw;
+  margin: auto;
+  background-color: #241b18;
+}
+
+body header {
+  width: 50%;
+  color: #ffebb4;
+  margin: 20px auto;
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body .animation1 {
+  color: #ffebb4;
+  background-color: #4b351d;
+  border: 3px solid #4b351d;
+  font-weight: 800;
+  padding: 5px 15px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+body .animation2 {
+  color: #fafafa;
+  border: 3px solid #fafafa;
+  background-color: #757575;
+  font-weight: 800;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #5d4037;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Supermercado One', sans-serif;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+h2 {
+  color: #6d4c41;
+  font-size: 20px;
+  font-weight: 600;
+  font-variant: small-caps;
+  margin-bottom: 15px;
+}
+
+main {
+  height: 725px;
+  width: 1100px;
+  border: 5px solid #4B351D;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  padding: 40px;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background-image: url(/img/background-map.jpg);
+}
+
+main section {
+  margin-bottom: 15px;
+}
+
+main section dt {
+  color: #241b18;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+main section dd {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: left;
+  margin-right: 10px;
+}
+
+main .container {
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+  -webkit-column-rule: 1px dotted #312622;
+          column-rule: 1px dotted #312622;
+  width: 700px;
+  margin: auto;
+}
+
+main .price {
+  color: #b22222;
+  font-weight: 600;
+}
+
+.address {
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-size: 13px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 85px;
+  color: #312622;
+  border-radius: 10px;
+  border: 2px dotted #312622;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.address:hover {
+  color: #ffebb4;
+  background-color: #312622;
+}
+/*# sourceMappingURL=menu-1.css.map */
