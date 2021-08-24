@@ -99,8 +99,8 @@ main .container {
           column-count: 2;
   -webkit-column-gap: 100px;
           column-gap: 100px;
-  -webkit-column-rule: 1px dotted #312622;
-          column-rule: 1px dotted #312622;
+  -webkit-column-rule: 2px dotted #bc8f8f;
+          column-rule: 2px dotted #bc8f8f;
   width: 700px;
   margin: auto;
 }
