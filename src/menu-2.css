@@ -1,16 +1,21 @@
 body {
   width: 60vw;
   margin: auto;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Oswald', sans-serif;
 }
 
 body header {
-  width: 50%;
-  margin: 20px auto;
+  width: 750px;
+  color: #1a1a1a;
+  margin: auto;
   margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px
 }
+
 
 body a {
   text-decoration: none;
@@ -36,7 +41,7 @@ body .animation2 {
 
 h1 {
   color: #1e1e1e;
-  font-size: 35px;
+  font-size: 46px;
   font-weight: 200;
   font-family: 'Bungee Inline', sans-serif;
   
@@ -54,8 +59,8 @@ h2 {
 }
 
 main {
-  height: 725px;
-  width: 1100px;
+  height: 750px;
+  width: 1200px;
   border: 5px solid #1e1e1e;
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
@@ -71,10 +76,17 @@ main .container {
           column-count: 2;
   -webkit-column-gap: 75px;
           column-gap: 75px;
-  margin: auto;
-  width: 90%;
-  position: relative;
-  top: 50px;
+
+  width: 75%;
+  margin: 50px auto;
+}
+
+main .container .container-left{
+  height: 100%;
+}
+
+main .container .container-right{
+  height: 100%;
 }
 
 main section {
@@ -91,8 +103,8 @@ main section dl {
 main section dt {
   display: inline;
   color: #979797;
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 16px;
   margin-top: 10px;
   font-style: italic;
 }
@@ -103,7 +115,6 @@ main section dt::after {
 
 main section dd {
   display: inline;
-  font-size: 15px;
   text-align: left;
   margin-right: 10px;
 }
@@ -128,21 +139,15 @@ main section .price {
   padding: 15px;
   margin-top: 40px;
 }
-.address {
-  width: 1200px;
+body main .address {
+  width: 100%;
   height: 50px;
-  position: absolute;
-  top: 78%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  
   font-size: 13px;
   font-weight: 600;
   margin: auto;
-  margin-top: 35px;
-  padding: 10px 85px;
+  margin-top: 100px;
   color: #1e1e1e;
   font-style: italic;
   text-align: right;
 }
-/*# sourceMappingURL=menu-2.css.map */
